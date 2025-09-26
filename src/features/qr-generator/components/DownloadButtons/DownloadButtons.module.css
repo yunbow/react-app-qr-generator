@@ -1,0 +1,37 @@
+.downloadOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.pngButton {
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+
+.pngButton:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.svgButton {
+  background-color: var(--color-accent);
+  color: var(--color-accent-foreground);
+}
+
+.svgButton:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+  .downloadOptions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .downloadOptions button {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}

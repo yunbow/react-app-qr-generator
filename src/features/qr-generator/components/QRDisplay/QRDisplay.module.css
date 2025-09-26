@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-muted);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+  min-height: 300px;
+  width: 100%;
+}
+
+.qrcode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

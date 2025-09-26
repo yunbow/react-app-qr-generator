@@ -1,0 +1,25 @@
+.textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--color-input);
+  border-radius: var(--radius);
+  resize: vertical;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  transition: border 0.3s;
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  background-color: var(--color-card);
+  color: var(--color-foreground);
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: var(--color-ring);
+  box-shadow: 0 0 5px var(--color-ring);
+}
+
+.textarea:disabled {
+  background-color: var(--color-muted);
+  cursor: not-allowed;
+}
